@@ -1,0 +1,76 @@
+site_name: Designing Protein Binders with AI — Internship 2026
+site_description: A 4–6 week hands-on internship curriculum on computational protein design, from biology foundations to running BindCraft on real cancer targets.
+site_url: https://rucha1796.github.io/internship-bindcraft-2026/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - "Module 1: Biology Foundation":
+    - "1.1 What Is a Protein?": m1_01_what_is_a_protein.md
+    - "1.2 Protein Structure": m1_02_protein_structure.md
+    - "1.3 How Proteins Interact": m1_03_protein_interactions.md
+    - "1.4 The Immune System & PD-L1": m1_04_immune_system_pdl1.md
+    - "1.5 Antibodies vs. Designed Binders": m1_05_antibodies_vs_binders.md
+  - "Module 2: From Homology Modeling to AlphaFold":
+    - "2.1 A Timeline: X-Ray to AF2": m2_01_timeline.md
+    - "2.2 The Protein Data Bank": m2_02_pdb.md
+    - "2.3 Homology Modeling to Deep Learning": m2_03_homology_to_dl.md
+  - "Module 3: Seeing Proteins":
+    - "3.1 Tour of Mol*": m3_01_molstar_tour.md
+    - "3.2 Reading a Structure": m3_02_reading_structure.md
+    - "3.3 The PD-L1 Binding Interface": m3_03_pdl1_interface.md
+  - "Module 4: AlphaFold2":
+    - "4.1 What AlphaFold2 Does": m4_01_alphafold2.md
+    - "4.2 Reading Confidence Scores": m4_02_confidence_scores.md
+    - "4.3 Running ColabFold": m4_03_colabfold.md
+    - "4.4 MSAs and Evolution": m4_04_msa.md
+  - "Module 5: De Novo Design":
+    - "5.1 The Design Challenge": m5_01_design_challenge.md
+    - "5.2 The BindCraft Pipeline": m5_02_bindcraft_pipeline.md
+    - "5.3 What Is Hallucination?": m5_03_hallucination.md
+    - "5.4 Filtering Designs": m5_04_filtering.md
+  - "Module 6: Running BindCraft":
+    - "6.1 Setting Up: Target & Settings": m6_01_setup.md
+    - "6.2 Launching the Design Run": m6_02_running.md
+    - "6.3 Understanding the Output Files": m6_03_outputs.md
+    - "6.4 Visualizing Your Designs": m6_04_visualization.md
+  - "Module 7: Analyzing Results":
+    - "7.1 The Metrics Explained": m7_01_metrics.md
+    - "7.2 Ranking & Filtering Designs": m7_02_ranking.md
+    - "7.3 Good vs. Bad Designs": m7_03_good_vs_bad.md
+    - "7.4 PDL1 Case Study": m7_04_case_study.md
+  - "Module 8: Wet Lab Handoff":
+    - "8.1 From Bits to Molecules": m8_01_bits_to_molecules.md
+    - "8.2 What Gets Ordered & Why": m8_02_what_gets_ordered.md
+    - "8.3 How We Test Binders": m8_03_testing.md
+    - "8.4 The DMTA Cycle": m8_04_dmta.md
+  - "Module 9: Your Independent Project":
+    - "9.1 Your New Target": m9_01_new_target.md
+    - "9.2 Finding the Structure": m9_02_finding_structure.md
+    - "9.3 Identifying Hotspot Residues": m9_03_hotspots.md
+    - "9.4 Running BindCraft": m9_04_running.md
+    - "9.5 Analyzing Your Results": m9_05_analysis.md
+    - "9.6 Final Presentation Guide": m9_06_presentation.md
+  - Glossary: glossary.md
+  - Schedule: schedule.md
